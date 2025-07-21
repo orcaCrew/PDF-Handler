@@ -46,7 +46,7 @@ function App() {
     const { files } = event.target;
     if (files && files[0]) {
       const selectedFile = files[0];
-      const maxSize = 200 * 1024 * 1024; // 200MB in bytes
+      const maxSize = 100 * 1024 * 1024; // 200MB in bytes
       
       if (selectedFile.size > maxSize) {
         alert('파일 크기가 200MB를 초과합니다.');
@@ -79,7 +79,7 @@ function App() {
     const droppedFiles = e.dataTransfer.files;
     if (droppedFiles && droppedFiles[0]) {
       const droppedFile = droppedFiles[0];
-      const maxSize = 200 * 1024 * 1024; // 200MB in bytes
+      const maxSize = 100 * 1024 * 1024; // 200MB in bytes
       
       if (droppedFile.size > maxSize) {
         alert('파일 크기가 200MB를 초과합니다.');
@@ -320,7 +320,7 @@ function App() {
                       PDF 파일을 선택하거나 여기에 드래그하세요
                     </span>
                     <span className="text-sm text-gray-500 mt-2">
-                      최대 파일 크기: 200MB
+                      최대 파일 크기: 100MB
                     </span>
                   </label>
                 </div>

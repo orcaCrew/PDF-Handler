@@ -82,7 +82,7 @@ function App() {
       const maxSize = 200 * 1024 * 1024; // 200MB in bytes
       
       if (droppedFile.size > maxSize) {
-        alert('파일 크기가 200MB를 초과합니다.');
+        alert('파일 크기가 200MB를 초과합니다. 더 작은 파일을 선택해주세요.');
         return;
       }
       

@@ -79,7 +79,7 @@ function App() {
     const droppedFiles = e.dataTransfer.files;
     if (droppedFiles && droppedFiles[0]) {
       const droppedFile = droppedFiles[0];
-      const maxSize = 200 * 1024 * 1024; // 200MB in bytes
+      const maxSize = 100 * 1024 * 1024; // 200MB in bytes
       
       if (droppedFile.size > maxSize) {
         alert('파일 크기가 200MB를 초과합니다.');
