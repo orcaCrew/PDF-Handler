@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/PDF-Handler/static/css/main.56e63ee5.css",
-    "main.js": "/PDF-Handler/static/js/main.59ec2dfd.js",
+    "main.js": "/PDF-Handler/static/js/main.c7562e76.js",
     "index.html": "/PDF-Handler/index.html",
     "main.56e63ee5.css.map": "/PDF-Handler/static/css/main.56e63ee5.css.map",
-    "main.59ec2dfd.js.map": "/PDF-Handler/static/js/main.59ec2dfd.js.map"
+    "main.c7562e76.js.map": "/PDF-Handler/static/js/main.c7562e76.js.map"
   },
   "entrypoints": [
     "static/css/main.56e63ee5.css",
-    "static/js/main.59ec2dfd.js"
+    "static/js/main.c7562e76.js"
   ]
 }
